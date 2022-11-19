@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body class="main_bg" dir="rtl">
+    <div class="form">
+        <div class="form-text">
+            <h1><span><img src="art-1.png" alt=""></span>זימון תור <span><img src="art-1.png" alt=""></span></h1>
+            <p>קביעת תור אצל המחדד, ניתן לקבוע בימים ובשעות הזמינים בלבד!</p>
+        </div>
+        <div class="main-form">
+            <form action="index.php" method="get">
+                <div>
+                    <span>שם מלא</span>
+                    <input type="text" name="name" id="name" placeholder="שם מלא..." required>
+                </div>
+                <div>
+                    <span>מייל</span>
+                    <input type="email" name="name" id="name" placeholder="מייל..." required> 
+                </div>
+
+                <div>
+                    <span>תאריך</span>
+                    <input type="date" name="date" id="date" onfocus="this.showPicker()" placeholder="date" required>
+                </div>
+                <div>
+                    <span>פלאפון</span>
+                    <input type="number" name="number" id="number" placeholder="מספר פלאפון..." required>
+                </div>
+                <div id="btn">
+                   <input type="button" value="14:30">
+                </div>
+                <div id="submit">
+                    <input type="submit" value="הזמן תור" id="submit">
+                </div>
+
+
+            </form>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
